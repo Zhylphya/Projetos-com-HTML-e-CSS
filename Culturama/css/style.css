@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c9d9ea;
+}
+
+body {
+    font-family: "work sans";
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+form {
+    padding: 15px;
+    background-color: #6c80a6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+small {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+fieldset {
+    padding: 15px;
+    border: 1px solid #1c2445;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    background-color: #1c2445;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1c2445;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="color"]{
+    width: 40px;
+    padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+    border-color: green;
+}
+
+.botao{
+  display: flex;
+  justify-content: center; 
+  gap: 10px;  
+  border-radius: 10px;          
+}
+
+button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+}
+
+button[type="reset"]:hover{
+    background-color: red;
+}
